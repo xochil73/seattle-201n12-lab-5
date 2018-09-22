@@ -12,7 +12,7 @@ function sum(a, b) { var num=a+b;
     var num2="The sum of " + a + " and " + b + " is " + num + ".";
     var answers;
     answers = [num, num2];
-    console.log(num2); 
+   // console.log(num2); 
     return answers;  //eslint-disable-line
 
 }
@@ -31,12 +31,17 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) { //eslint-disable-line
+function multiply(a, b) { var num3=a*b;
+    var num4="The product of " + a + " and " + b + " is " + num3 + ".";
+    var answers;
+    answers=[num3, num4];
+    return answers;
+    //eslint-disable-line
 
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+ testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
